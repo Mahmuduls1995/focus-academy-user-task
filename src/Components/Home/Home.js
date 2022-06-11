@@ -18,7 +18,7 @@ const Home = () => {
 
                     {
 
-                        users.results.map(user => (
+                        users.results?.map(user => (
 
                             <div className="mt-3 col-12 col-sm-12 col-xl-4 col-lg-4 col-md-6  g-4 mx-auto ">
 
